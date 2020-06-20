@@ -1,0 +1,37 @@
+article.news {
+    max-width: 700px;
+    margin-bottom: 120px;
+}
+
+article.news:after {
+    content: "By 李烁莹";
+    text-align: center;
+    display: block;
+    color: #ff83a2;
+    margin-top: 20px;
+}
+
+article.news .title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+article.news .content {
+    line-height: 32px;
+    color: #848484;
+}
+
+article.news .content p {
+    margin-bottom: 10px;
+    text-indent: 40px;
+}
+
+article.news .info {
+    font-size: 12px;
+    color: rgba(6, 6, 6, 0.59);
+    margin-bottom: 20px;
+}
+
+article.news .info span:nth-child(n+2) {
+    margin-left: 10px;
+}

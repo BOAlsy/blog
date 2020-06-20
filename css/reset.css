@@ -1,0 +1,41 @@
+:root {
+    --table-border: 1px dashed #cecece;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei UI", "SimSun", serif;
+    text-decoration: none;
+    outline: none;
+}
+
+table {
+    border: var(--table-border);
+    width: 100%;
+}
+
+thead {
+    background-color: rgba(255, 131, 162, 0.22);
+}
+
+th, td {
+    line-height: 48px;
+}
+
+tr td {
+    border-top: var(--table-border);
+    text-align: center;
+}
+
+th:nth-child(n+2), td:nth-child(n+2) {
+    border-left: var(--table-border);
+}
+
+a {
+    color: #ff83a2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
